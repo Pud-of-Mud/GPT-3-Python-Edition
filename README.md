@@ -11,4 +11,5 @@ If user wants to switch engine, than you can change that in line 67:
 Replace the string in the model_engine varable to change.
 Avalable Engines: 
   -  text-curie-001
+  -  text-davinci-003
   -  text-ada-001
