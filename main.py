@@ -1,9 +1,3 @@
-#Open AI's ChatGPT-3 within Python using Open AI's Open API.
-#Can write exams, write scripts, give advice, can
-#even teach you how to make a bomb. However, you should
-#use this with caution! The facts given from the 
-#model may be false and should be taken with a grain of salt.
-
 import os
 import openai
 from colorama import Fore, Style
@@ -15,7 +9,7 @@ apiKeyVarable = os.environ['api-key']
 thePhrase = os.environ['phrase']
 
 #Defining what to do when a question is asked
-#using the openai APT.
+#using OpenAI's API.
 def askquestion(question, engine):
   completion = openai.Completion.create(
     engine=model_engine,
@@ -33,13 +27,14 @@ def askquestion(question, engine):
 if __name__ == "__main__":
   
   #Giving credit where credit is due
-  print(Fore.GREEN + 'Open AI Code by @jacobpowaza \n' + Style.RESET_ALL)
+  print(Fore.GREEN + 'Open AI API Code by @jacobpowaza ' + Style.RESET_ALL)
   print(Fore.GREEN + 'Made by @Pud0fMud \n' + Style.RESET_ALL)
   sleep(0.5)
+  print(Fore.RED + 'Developer Build!\n' + Style.RESET_ALL)
 
   find = "You can find your api key at: "  
   for char in find:
-    sleep(0.08)
+    sleep(0.07)
     print(char, end='', flush=True)
 
   sleep(0.7)
@@ -54,30 +49,19 @@ if __name__ == "__main__":
     
   
   key = pwinput.pwinput(prompt='\n', mask='*')
-  secretPhraseAcc = "Secert Phrase Accepted!\nLoading API...\n"
+  openai.api_key = key
 
-  #Applying the user's API key if given proper 
-  #one; unless using secret phrase ;)
-  if (key == thePhrase):
-    openai.api_key = apiKeyVarable
-    for char in secretPhraseAcc:
-      sleep(0.05)
-      print(char, end='', flush=True)
-    
-    sleep(1)
-  else:
-    openai.api_key = key
+  #Sets the engine to be used. Can be switched out in runtime.  
+  words = 'Pick your engine: \nAvailable Engines: \n * text-davinci-003 [Best results] \n * text-curie-001 [Fastest, ok results]\n * text-ada-001 [unknown]\nIf left empty, it will default to davinci-003\n\n '
 
-  #Uses text-davinci-003 engine due to its reliablity and good results.
-  #If user wants to switch engine, than you can change that here.
-  #Avalable Engines: 
-  #  -  text-curie-001
-  #  -  text-ada-001
-  #Replace the string in the model_engine varable to change.
+  for char in words:
+    sleep(0.04)
+    print(char, end='', flush=True)
 
-  model_engine = "text-davinci-003"
-    
-  engine = "GPT-3 is using the " + Fore.GREEN + "text-davinci-003" + Style.RESET_ALL + " engine.\n\n"
+  engine_input = input('Input: ')
+  
+  model_engine = engine_input
+  engine = "\nGPT-3 is using the " + Fore.GREEN + model_engine + Style.RESET_ALL + " engine.\n\n"
   for char in engine:
     sleep(0.07)
     print(char, end='', flush=True)
