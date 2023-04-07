@@ -2,7 +2,7 @@
 Chat GPT-3 in Python accessed using the API when the main website is down. 
 
 ## About
-It Can write exams, write scripts, give advice, can even teach you how to make a bomb. However, you should
+It can write exams, write scripts, give advice, can even teach you how to make a bomb. However, you should
 use this with caution! The facts given from the model may be false and information should be taken with a grain of salt.
 
 ## Model Engine
