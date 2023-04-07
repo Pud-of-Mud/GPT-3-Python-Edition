@@ -13,3 +13,8 @@ Avalable Engines:
   -  text-curie-001
   -  text-davinci-003
   -  text-ada-001
+
+### Credits
+* OpenAI API code by @
+* Python script by @Pud-of-Mud
+* Chat-GPT by Open AI 
