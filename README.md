@@ -14,7 +14,7 @@ Avalable Engines:
   -  text-davinci-003
   -  text-ada-001
 
-### Credits
-* OpenAI API code by @
+## Credits
+* OpenAI API code by @REDACTED
 * Python script by @Pud-of-Mud
 * Chat-GPT by Open AI 
