@@ -29,7 +29,11 @@ if __name__ == "__main__":
   #Giving credit where credit is due
   print(Fore.GREEN + 'Open AI API Code by @jacobpowaza ' + Style.RESET_ALL)
   print(Fore.GREEN + 'Made by @Pud0fMud \n' + Style.RESET_ALL)
+ 
   sleep(0.5)
+
+  # Uncomment the following line when making developmental branches,
+  # however re-comment the line before merging to main. 
   print(Fore.RED + 'Developer Build!\n' + Style.RESET_ALL)
 
   find = "You can find your api key at: "  
@@ -52,11 +56,7 @@ if __name__ == "__main__":
   openai.api_key = key
 
   #Sets the engine to be used. Can be switched out in runtime.  
-  words = 'Pick your engine: \nAvailable Engines: \n * text-davinci-003 [Best results] \n * text-curie-001 [Fastest, ok results]\n * text-ada-001 [unknown]\nIf left empty, it will default to davinci-003\n\n '
-
-  for char in words:
-    sleep(0.04)
-    print(char, end='', flush=True)
+  print('Pick your engine: \nAvailable Engines: \n * text-davinci-003 [Best results] \n * text-curie-001 [Fastest, ok results]\n * text-ada-001 [unknown]\nIf left empty, it will default to davinci-003\n\n ')
 
   engine_input = input('Input: ')
   
