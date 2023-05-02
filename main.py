@@ -59,7 +59,6 @@ if __name__ == "__main__":
   
   key = pwinput.pwinput(prompt='\n', mask='*')
   openai.api_key = key
-
   
   # Sets the engine to be used. Can be switched out in runtime.  
   # Defaults to text-davinci-003
