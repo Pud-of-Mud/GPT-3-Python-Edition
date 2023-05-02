@@ -38,7 +38,7 @@ if __name__ == "__main__":
   
   # Uncomment the following line when working with developmental 
   # branches; however re-comment before merging to main. 
-  print(Fore.RED + 'Developer Build!\n' + Style.RESET_ALL)
+  #print(Fore.RED + 'Developer Build!\n' + Style.RESET_ALL)
   print(Fore.RED + "WARNING: All engines cannot recall from memory ATM.\n"  + Style.RESET_ALL)
 
   # API key is kept in memory and never stored locally. 
