@@ -68,7 +68,7 @@ However, if you'd like to finish the project or add to it your free to make as m
 I am no longer spending time on this project as of now.
 
 ## Licence 
-This project is protected under the [GNU Affero General Public License v3.0]()
+This project is protected under the [GNU Affero General Public License v3.0](/LICENSE)
 
 ## Credits
 * OpenAI API code by @jacobpowaza 
