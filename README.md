@@ -5,7 +5,7 @@ ChatGPT within Python, being accessed through the API when the main website is d
 <br>
 <br>
 ChatGPT is an AI chatbot that uses natural language processing to create humanlike conversational dialogue. The language model can respond to questions and compose various written content, including articles, social media posts, essays, code and emails. 
-<a href="https://en.wikipedia.org/wiki/ChatGPT"><i>Source<i><a>
+<a href="https://en.wikipedia.org/wiki/ChatGPT"><i>Source</i><a>
 
 
 ## Limitations
