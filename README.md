@@ -60,8 +60,6 @@ To forever use an engine of your choice, you can manualy change it in ```main.py
 ## Deployment
 To run the application, run ```main.py``` in any python compiler or IDE.
 
-![Run on Repl.it](https://repl.it/badge/github/maxbbraun/trump2cash)](https://repl.it/github/maxbbraun/trump2cash)
-
 ## Deprication of this project 
 This project will likly never be finished due to the recent change of policy with OpenAI.
 Access to the API is now restricted to paying users for their service. Be aware of this before using this project!
