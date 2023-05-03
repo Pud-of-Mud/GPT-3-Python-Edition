@@ -58,7 +58,10 @@ To forever use an engine of your choice, you can manualy change it in ```main.py
  - input ```engine``` to hot-swap the engine.
 
 ## Deployment
-To run the application, run ```main.py``` in any python compiler or IDE.
+
+1. Download the latest stable release [here](https://github.com/Pud-of-Mud/GPT-3-Python-Edition/releases/tag/v0.1.1) or beta release [here](https://github.com/Pud-of-Mud/GPT-3-Python-Edition) 
+2. To run the application, run ```main.py``` in any python compiler or IDE.
+3. You will need a OpenAI account and an API key to run the script. 
 
 ## Deprication of this project 
 This project will likely never be finished due to the recent change of policy with OpenAI.
