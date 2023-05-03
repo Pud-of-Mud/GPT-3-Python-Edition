@@ -2,9 +2,14 @@
 ## About
 <img align="right" width="200" src="https://user-images.githubusercontent.com/109466200/235973666-7eb55030-bb1e-4edc-b40f-7befba441790.png">
 ChatGPT within Python, being accessed through the API when the main website is down or at max capacity.
+<br>
+It can write exams, write scripts, give advice, can even teach you how to make a bomb. 
 
-It can write exams, write scripts, give advice, can even teach you how to make a bomb. However, you should
-use this with caution! The facts given from the model may be false and information should be taken with a grain of salt. 
+## Limitations
+You should use this with caution! 
+The facts given from the language model may be false and information should be taken with a grain of salt. 
+<br>
+The model also has no memory of past conversations ATM. 
 
 ## Model Engine
 #### In-Script Engine swap
