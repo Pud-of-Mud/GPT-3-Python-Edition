@@ -3,7 +3,10 @@
 <img align="right" width="200" src="https://user-images.githubusercontent.com/109466200/235973666-7eb55030-bb1e-4edc-b40f-7befba441790.png">
 ChatGPT within Python, being accessed through the API when the main website is down or at max capacity.
 <br>
-It can write exams, write scripts, give advice, can even teach you how to make a bomb. 
+<br>
+ChatGPT is an AI chatbot that uses natural language processing to create humanlike conversational dialogue. The language model can respond to questions and compose various written content, including articles, social media posts, essays, code and emails. 
+<a href="https://en.wikipedia.org/wiki/ChatGPT"><i>Source<i><a>
+
 
 ## Limitations
 You should use this with caution! 
