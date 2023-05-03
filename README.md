@@ -61,11 +61,14 @@ To forever use an engine of your choice, you can manualy change it in ```main.py
 To run the application, run ```main.py``` in any python compiler or IDE.
 
 ## Deprication of this project 
-This project will likly never be finished due to the recent change of policy with OpenAI.
+This project will likely never be finished due to the recent change of policy with OpenAI.
 Access to the API is now restricted to paying users for their service. Be aware of this before using this project!
 <br>
 However, if you'd like to finish the project or add to it your free to make as many commits to it as you please. 
 I am no longer spending time on this project as of now.
+
+## Licence 
+This project is protected under the [GNU Affero General Public License v3.0]()
 
 ## Credits
 * OpenAI API code by @jacobpowaza 
