@@ -8,10 +8,6 @@ from time import sleep
 #Defining Varables
 apiKeyVarable = os.environ['api-key']
 thePhrase = os.environ['phrase']
-#TextEngines
-textDavinci = 'text-davinci-003'
-textCurie = 'text-curie-001' 
-textAda = 'text-ada-001'
 
 #Defining what to do when a question is asked
 #using OpenAI's API.
@@ -34,6 +30,7 @@ if __name__ == "__main__":
   #Giving credit where credit is due
   print(Fore.GREEN + 'Open AI API Code by @jacobpowaza ' + Style.RESET_ALL)
   print(Fore.GREEN + 'Made by @Pud0fMud \n' + Style.RESET_ALL)
+  print(Fore.GREEN + 'ChatGPt by @OpenAI \n' + Style.RESET_ALL)
   sleep(0.5)
   
   # Uncomment the following line when working with developmental 
