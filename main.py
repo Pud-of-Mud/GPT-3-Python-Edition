@@ -5,10 +5,6 @@ from colorama import Fore, Style
 import pwinput
 from time import sleep
 
-#Defining Varables
-apiKeyVarable = os.environ['api-key']
-thePhrase = os.environ['phrase']
-
 #Defining what to do when a question is asked
 #using OpenAI's API.
 def askquestion(question, engine):
